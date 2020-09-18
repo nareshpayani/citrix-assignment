@@ -12,6 +12,52 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
+### `Prerequisites`
+
+The minimum React version material-table supports is ^16.8.5 since material-table v1.36.1. This is due to utilising react-beautiful-dnd for drag & drop functionality which uses hooks.
+
+If you use an older version of react we suggest to upgrade your dependencies or use material-table 1.36.0.
+
+### `Installation`
+
+1.Install package
+To install material-table with npm:
+
+`npm install material-table @material-ui/core --save`
+
+To install material-table with yarn:
+
+`yarn add material-table @material-ui/core`
+
+
+2.Add material icons
+There are two ways to use icons in material-table either import the material icons font via html OR import material icons and use the material-table icons prop.
+
+HTML
+`<link
+  rel="stylesheet"
+  href="https://fonts.googleapis.com/icon?family=Material+Icons"
+/>`
+
+OR
+
+Import Material icons
+Icons can be imported to be used in material-table offering more flexibility for customising the look and feel of material table over using a font library.
+
+To install @material-ui/icons with npm:
+
+  `npm install @material-ui/icons --save`
+  
+To install @material-ui/icons with yarn:
+
+`yarn add @material-ui/icons`
+
+### `rechart - stacked BarChart`
+
+To Install rechart :
+
+`npm install recharts `
+
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.<br />
